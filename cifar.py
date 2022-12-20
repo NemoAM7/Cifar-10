@@ -18,7 +18,7 @@ model = models.Sequential([
     #cnn
     layers.Conv2D(filters = 32, kernel_size = (3,3), activation = 'relu', input_shape = (32,32,3)),
     layers.MaxPooling2D((2,2)),
-
+    #abcd
     #dense
     layers.Flatten(),
     layers.Dense(64, activation = 'relu'),
